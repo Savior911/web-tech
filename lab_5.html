@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <title>Створення змінних в CSS, функції calc та nth-child</title>
+</head>
+<style>
+    :root {
+      --primary-color: #ff0000;
+      --font-size: 16px;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      font-size: var(--font-size);
+    }
+
+    .container {
+      width: calc(100% - 20px);
+      height: calc(50vh - 30px);
+      padding: calc(2em + 10px);
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li:nth-child(odd) {
+      background-color: lightgray;
+    }
+
+    li:nth-child(even) {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>Приклад</h1>
+
+  <div class="container">
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  </div>
+
+  <ul>
+    <li>Приклад 1</li>
+    <li>Приклад 2</li>
+    <li>Приклад 3</li>
+    <li>Приклад 4</li>
+    <li>Приклад 5</li>
+  </ul>
+</body>
+</html>

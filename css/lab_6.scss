@@ -1,0 +1,27 @@
+$white:#ffffff;
+$black: #000000;
+
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+}
+
+.white {
+  background-color: $white;
+}
+
+.black {
+  background-color: $black;
+}

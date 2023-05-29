@@ -1,0 +1,26 @@
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=lab_6.css.map */
